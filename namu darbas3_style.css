@@ -35,10 +35,6 @@ main {
 .title-container a {
     font-weight:900;
     background:yellow;
-
-    /* top right bottom left */
-    /* padding: 15px 75px 15px 75px; */
-    
     padding-top:15px;
     padding-bottom: 15px;
     padding-left: 75px;
@@ -50,7 +46,6 @@ main {
 }
 
 a {
-    /* nuimame numatyta nuorodos formatavimas */
     text-decoration: none;
     color: rgb(42, 42, 42);
     text-transform: uppercase;
@@ -64,7 +59,6 @@ a:visited {
 
 a:hover {
     color:rgb(167, 164, 164);
-    /* ryskumas */
     opacity: 0.5;
 }
 
@@ -76,9 +70,6 @@ a:hover {
 .top-container {
     display:flex;
     justify-content: space-between;
-    /* automatiskai parenka parastes is kaires ir desines puses */
-    margin: 0 auto;
-    /* svetaines iscentravimas su margin auto ir maksimaliu plociu */
     max-width: 1280px;
     background: #fff;
 }
